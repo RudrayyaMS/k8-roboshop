@@ -18,7 +18,7 @@ spec:
   - name: catalogue
     imagePullPolicy: Always
     image: rudrams123/catalogue:v1
-    envForm:
+    envFrom:
     - configMapRef:
         name: catalogue_config
     resources:
