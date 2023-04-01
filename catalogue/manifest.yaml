@@ -20,7 +20,7 @@ spec:
     image: rudrams123/catalogue:v1
     envFrom:
     - configMapRef:
-        name: catalogue_config
+        name: catalogue-config
     resources:
       requests:
         cpu: "100m"
